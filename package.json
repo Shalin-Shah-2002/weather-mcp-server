@@ -2,8 +2,12 @@
   "name": "weather-mcp-server",
   "version": "1.0.0",
   "type": "module",
+  "main": "src/server.js",
+  "bin": {
+    "weather-mcp-server": "./src/server.js"
+  },
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
